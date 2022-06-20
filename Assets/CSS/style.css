@@ -1,17 +1,27 @@
 :root{
+--dark:black;
 --blue: blue;
 --red: red;
 --purp: rgb(161, 12, 161);
 --lblu: rgba(26, 138, 158, 0.767);
+--font: font-family: Gill Sans, sans-serif;
+--light: white;
+}
+
+
+/* Removes white outlines around background color*/
+*{
+   margin: 0;
+padding: 0;
 }
 
 
 
 header {
-text-align: center;
-   background-color: var(--lblu);
-   width: 25%;
-   height: 50px;
-    color: var(--purp);
-    font-size: 30px;
+flex-wrap: wrap;
+background-image: linear-gradient(var(--dark), var(--purp));
+display: flex;
+ justify-content: space-between;
+ padding: 20px 35px;
 }
+
