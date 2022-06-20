@@ -1,0 +1,17 @@
+:root{
+--blue: blue;
+--red: red;
+--purp: rgb(161, 12, 161);
+--lblu: rgba(26, 138, 158, 0.767);
+}
+
+
+
+header {
+text-align: center;
+   background-color: var(--lblu);
+   width: 25%;
+   height: 50px;
+    color: var(--purp);
+    font-size: 30px;
+}
