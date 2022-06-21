@@ -10,6 +10,7 @@
          
 
 /* Removes white outlines around background color*/
+
 *{
    
 margin: 0;
@@ -20,35 +21,35 @@ padding: 0;
 
 header{
 flex-wrap: wrap;
-background-color: aqua;
+background-color: var(--dark);
 display: flex;
  justify-content: space-between;
  padding: 20px 32px;
+
 }
 
 header nav ul{
-   flex-wrap: wrap;
-   justify-content: space-between;
-   align-items: center;
-   list-style: none;
    display: flex;
-
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
 }
 
 
 
 
-header li a ul nav{
-   color: red;
-text-decoration: none;
- padding-bottom: 2px solid;
-   margin: 0 24px;
-   border-bottom: 2px;
+header nav ul li a{
+   margin: 0 25px;
+   color: var(--light);
+   text-decoration: none;
+   border-bottom: 2px solid;
+   padding-bottom: 2px;
 }
 
 header h1{
    font-weight: bold;
-   color: rgb(1, 15, 1);
+   color: var(--light);
    margin: 0;
    font-size: 40px;
 
