@@ -1,15 +1,13 @@
 :root{
 --dark:black;
---blue: blue;
---red: red;
 --purp: rgb(161, 12, 161);
---lblu: rgba(26, 138, 158, 0.767);
 --font: font-family: Gill Sans, sans-serif;
 --light: white;
+--gra: grey;
 }
          
 
-/* Removes white outlines around background color*/
+/* Removes white outlines around background color (this took me so long to figure out) */
 
 *{
    
@@ -21,7 +19,7 @@ padding: 0;
 
 header{
 flex-wrap: wrap;
-background-color: var(--dark);
+background-image: radial-gradient(var(--gra), var(--dark));
 display: flex;
  justify-content: space-between;
  padding: 20px 32px;
@@ -37,7 +35,7 @@ list-style: none;
 }
 
 
-
+/* Makes the line below the clickables and colors their text*/
 
 header nav ul li a{
    margin: 0 25px;
@@ -46,7 +44,11 @@ header nav ul li a{
    border-bottom: 2px solid;
    padding-bottom: 2px;
 }
-
+/* changes color of selection upon hover*/
+a:hover{
+color: rgb(2, 236, 186);
+}
+/* changes font properties and color for Header and h1*/
 header h1{
    font-weight: bold;
    color: var(--light);
