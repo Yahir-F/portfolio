@@ -60,3 +60,19 @@ header h1{
 header nav{
    margin: 4px 0;
 }
+
+.info, .title {
+   text-align: center;
+}
+
+#picture {
+display: flex;
+justify-content:center;
+height: 300px;
+width: 800px;
+
+}
+
+#picture img{
+
+}
