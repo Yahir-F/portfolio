@@ -1,7 +1,6 @@
 :root{
 --dark:#28282B;
 --purp: rgb(161, 12, 161);
---font: font-family: Gill Sans, sans-serif;
 --light: white;
 --gra: grey;
 }
@@ -89,12 +88,30 @@ p{
    text-align: center;
 }
 
-#AboutMe, #ContactMe {
+#AboutMe {
    text-align: center;
+  
 }
 
+#Contactme{
+  
+   text-align: center;
+   justify-content: center;
+   
+}
 footer {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+}
+
+#PreviousWork{
+   text-align: center;
+}
+
+.con{
+   color: var(--light);
+}
+ul {
+   color: white;
 }
