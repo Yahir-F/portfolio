@@ -115,3 +115,7 @@ footer {
 ul {
    color: white;
 }
+
+a:link {
+   color: red;
+}
