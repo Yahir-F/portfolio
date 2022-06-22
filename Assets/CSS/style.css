@@ -1,5 +1,5 @@
 :root{
---dark:black;
+--dark:#28282B;
 --purp: rgb(161, 12, 161);
 --font: font-family: Gill Sans, sans-serif;
 --light: white;
@@ -19,7 +19,7 @@ padding: 0;
 
 header{
 flex-wrap: wrap;
-background-image: radial-gradient(var(--gra), var(--dark));
+background-image: linear-gradient(var(--light), var(--dark));
 display: flex;
  justify-content: space-between;
  padding: 20px 32px;
@@ -46,7 +46,7 @@ header nav ul li a{
 }
 /* changes color of selection upon hover*/
 a:hover{
-color: rgb(2, 236, 186);
+color: var(--purp);
 }
 /* changes font properties and color for Header and h1*/
 header h1{
@@ -63,16 +63,24 @@ header nav{
 
 .info, .title {
    text-align: center;
+   color: var(--light);
 }
 
 #picture {
+   
 display: flex;
-justify-content:center;
+border: 5px soid red;
+justify-content: center;
 height: 300px;
-width: 800px;
+width: auto;
+
 
 }
 
 #picture img{
+border: 2px solid var(--light);
+}
 
+body{
+   background-image: radial-gradient(var(--purp), var(--dark));
 }
