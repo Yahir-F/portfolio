@@ -45,7 +45,7 @@ header nav ul li a{
 }
 /* changes color of selection upon hover*/
 a:hover{
-color: var(--purp);
+color: blue;
 }
 /* changes font properties and color for Header and h1*/
 header h1{
@@ -117,5 +117,9 @@ ul {
 }
 
 a:link {
-   color: red;
+   color: rgb(251, 251, 251);
+}
+
+a{
+   color: white;
 }
