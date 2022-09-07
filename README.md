@@ -20,4 +20,4 @@ The Purpose of this application was to create a Portfolio page to preview some o
 
 ## Preview
 
-![](./Assets/Images/preview.png)
+![](./Assets/Images/home.png)
